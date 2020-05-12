@@ -26,6 +26,7 @@ public class Rectangle extends Shape {
         return 2 * (rectangleWidth + rectangleLength);
     }
 
+    @Override
     public String toString() {
         return "Rectangle[" + super.toString() + ", width = " + rectangleWidth + ", length = " + rectangleLength + "]";
     }
