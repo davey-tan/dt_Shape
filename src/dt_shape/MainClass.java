@@ -16,6 +16,15 @@ public class MainClass {
         System.out.println(circle2);
         System.out.println("Area: " + circle2.getArea());
         System.out.println("Perimeter: " + circle2.getPerimeter());
+        
+        System.out.println();
+        
+        Rectangle rectangle1 = new Rectangle();
+        System.out.println(rectangle1);
+        Rectangle rectangle2 = new Rectangle(5, 3);
+        System.out.println(rectangle2);
+        System.out.println("Area: " + rectangle2.getArea());
+        System.out.println("Perimeter: " + rectangle2.getPerimeter());
     }
 
 }
