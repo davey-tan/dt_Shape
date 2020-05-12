@@ -18,6 +18,10 @@ public class Circle extends Shape {
         return 2 * Math.PI * circleRadius;
     }
 
+    public String toString() {
+        return "Circle[" + super.toString() + ", radius = " + circleRadius + "]";
+    }
+
     private double circleRadius;
 
     public Circle() {
