@@ -22,7 +22,7 @@ public class Circle extends Shape {
         return "Circle[" + super.toString() + ", radius = " + circleRadius + "]";
     }
 
-    private double circleRadius;
+    private double circleRadius = 1;
 
     public Circle() {
 
