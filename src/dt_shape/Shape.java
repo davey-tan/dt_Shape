@@ -27,6 +27,11 @@ public class Shape {
         shapeFilled = filled;
     }
 
+    @Override
+    public String toString() {
+        return "Shape[color = " + shapeColor + ", filled = " + shapeFilled + "]";
+    }
+    
     private String shapeColor = "red";
     private boolean shapeFilled = true;
 
