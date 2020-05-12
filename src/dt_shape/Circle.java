@@ -18,6 +18,7 @@ public class Circle extends Shape {
         return 2 * Math.PI * circleRadius;
     }
 
+    @Override
     public String toString() {
         return "Circle[" + super.toString() + ", radius = " + circleRadius + "]";
     }
