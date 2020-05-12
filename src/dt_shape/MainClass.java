@@ -25,6 +25,15 @@ public class MainClass {
         System.out.println(rectangle2);
         System.out.println("Area: " + rectangle2.getArea());
         System.out.println("Perimeter: " + rectangle2.getPerimeter());
+        
+        System.out.println();
+        
+        Square square1 = new Square();
+        System.out.println(square1);
+        Square square2 = new Square(3, "green", false);
+        System.out.println(square2);
+        System.out.println("Area: " + square2.getArea());
+        System.out.println("Perimeter: " + square2.getPerimeter());
     }
 
 }
